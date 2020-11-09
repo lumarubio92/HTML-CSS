@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url("../img/fondo.jpg") no-repeat center top #000 ;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login-usuario{
+  width: 320px;
+  height: 420px;  /* alto de la cakja*/
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+
+}
+.login-usuario .logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+.login-usuario h1{
+  margin: 0;
+  padding: 0 0 20px; /* separacion entre registro y los campos */
+  text-align: center;
+  font-size: 25px;
+}
+
+.login-usuario label{
+  margin:0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+
+.login-usuario input{
+  width: 100%;
+  margin-bottom: 20px; /* separacion entre input */
+}
+
+.login-usuario input[type="text"],.login-usuario input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px; /* tamaño de letra de input */
+}
+.login-usuario input[type="submit"]{
+  border:none;
+  outline: none;
+  height: 40px;
+  background: blue;
+  color:#fff;
+  font-size: 18px;
+  border-radius: 20px;
+
+}
+.login-usuario a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;  /* espaciado*/
+  color: darkgray;
+}
+.login-usuario a:hover{
+  color: #fff;
+}
